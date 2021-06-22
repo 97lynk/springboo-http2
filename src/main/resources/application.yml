@@ -1,0 +1,12 @@
+server:
+  port: 8443
+  http2.enabled: true
+  ssl:
+    key-store-type: jks
+    key-store: classpath:key.jks
+    key-store-password: pAss
+    key-alias: aliasname
+    key-password: P@ss
+spring:
+  thymeleaf:
+    cache: false
